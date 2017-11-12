@@ -1,0 +1,51 @@
+
+.first {
+  background: $color_purple url(../img/bg-first-section.jpg) center bottom no-repeat;
+  background-size: cover;
+  height: 100vh;
+
+  &__logo {
+    padding-top: 36px;
+  }
+
+  &__list {
+    list-style: none;
+    padding-top: 58px;
+  }
+
+  &__item:not(:first-child) {
+    margin-left: 30px;
+  }
+
+  &__item a {
+    color: $color_total_white;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 60px;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: border-bottom, ease .2s;
+
+    &:hover {
+      border-bottom: 2px solid $color_total_white;
+    }
+  }
+
+  &__title {
+    color: $color_white;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 60px;
+    text-transform: uppercase;
+    padding-top: 270px;
+  }
+
+  &__description {
+    font-family: 'PT Sans', sans-serif;
+    color: $color_white;
+    font-size: 30px;
+    font-weight: 400;
+    font-style: italic;
+    padding: 0 200px;
+  }
+}

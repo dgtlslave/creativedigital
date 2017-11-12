@@ -1,0 +1,71 @@
+
+.team {
+  background: $color_milk;
+
+  &___unit-box {
+    position: relative;
+    margin-top: 192px;
+
+    &--miguel {
+      &::before {
+        content: url(../img/image-miguel.png);
+        position: absolute;
+        top: -30%;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+    }
+
+    &--jackie {
+      &::before {
+        content: url(../img/image-jackie.png);
+        position: absolute;
+        top: -30%;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+    }
+
+    &--ida {
+      &::before {
+        content: url(../img/image-ida.png);
+        position: absolute;
+        top: -30%;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+    }
+  }
+
+  &__name {
+    padding-top: 163px;
+    color: $color_purple;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  &__specialize {
+    font-family: 'PT Sans', sans-serif;
+    padding-bottom: 51px;
+    padding-top: 34px;
+    color: $color_gray;
+    font-size: 24px;
+    font-style: italic;
+  }
+
+  &___unit-box {
+    min-width: 350px;
+    background: $color_total_white;
+  }
+
+  &___unit-social {
+    background: $color_purple;
+    margin-top: -15px;
+  }
+
+  &__soc-icon {
+    margin-left: 13px;
+    padding: 19px 0;
+  }
+}

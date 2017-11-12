@@ -1,0 +1,27 @@
+
+.works {
+  background: url(../img/bg-works.jpg) center no-repeat;
+  background-size: cover;
+
+  &__btn-box {
+    padding-bottom: 56px;
+  }
+
+  &__btn {
+    display: inline-block;
+    font-family: 'PT Sans', sans-serif;
+    color: $color_milk;
+    line-height: 50px;
+    padding: 0 52px;
+    font-style: italic;
+    border: 1px solid $color_milk;
+    transition: background, color, .3s;
+    margin-left: 50px;
+
+    &:hover {
+      background: $color_total_white;
+      color: $color_purple;
+      text-decoration: none;
+    }
+  }
+}

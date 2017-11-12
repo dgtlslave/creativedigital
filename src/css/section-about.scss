@@ -1,0 +1,62 @@
+
+.about {
+  background-color: $color_milk;
+
+  &__description {
+    color: $color_gray;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 200px;
+  }
+
+  &__btn-box {
+    padding-top: 93px
+  }
+
+  &__btn {
+    display: inline-block;
+    font-family: 'PT Sans', sans-serif;
+    color: $color_gray;
+    line-height: 50px;
+    padding: 0 52px;
+    font-style: italic;
+    border: 1px solid $color_gray;
+    transition: background, color, .3s;
+
+    &:hover {
+      background: $color_gray;
+      color: $color_total_white;
+      text-decoration: none;
+    }
+  }
+
+  &__image-box {
+    position: relative;
+    margin-left: -15px;
+
+    &::after {
+      content: url(../img/icon-men.svg);
+      position: absolute;
+      top: 25%;
+      left: 50%;
+    }
+
+    &::before {
+      content: 'About us';
+      position: absolute;
+      top: 36%;
+      left: 6%;
+      width: 100%;
+      font-size: 36px;
+      color: $color_milk;
+      font-weight: 400;
+      line-height: 47px;
+      text-transform: uppercase;
+    }
+  }
+
+  &__image {
+    padding: 124px 0;
+  }
+}

@@ -1,0 +1,110 @@
+
+.services {
+  background: $color_milk;
+
+  &__our {
+    background: url(../img/bg-third-col.jpg) center no-repeat;
+    background-size: cover;
+    padding-top: 208px
+  }
+
+    &__bg {
+      background: $color_dark_gray;
+    }
+
+  &__title {
+    font-family: 'PT Sans', sans-serif;
+    color: $color_gray;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-top: 190px;
+
+    &--style {
+      display: inline;
+      font-family: ProximaNova, sans-serif;
+      font-size: 36px;
+      font-weight: 400;
+      // padding: 0 77px;
+      color: $color_milk;
+    }
+
+    &--graphic {
+      position: relative;
+
+      &::before {
+        content: url(../img/icon-graphic.svg);
+        position: absolute;
+        top: 100px;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+    }
+
+    &--seo {
+      position: relative;
+
+      &::before {
+        content: url(../img/icon-seo.svg);
+        position: absolute;
+        top: 100px;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+    }
+
+    &--web {
+      position: relative;
+
+      &::before {
+        content: url(../img/icon-web.svg);
+        position: absolute;
+        top: 100px;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+    }
+
+    &--mobile {
+      position: relative;
+
+      &::before {
+        content: url(../img/icon-mobile.svg);
+        position: absolute;
+        top: 100px;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+    }
+
+    &--services {
+      position: relative;
+
+      &::before {
+        content: url(../img/icon-services.svg);
+        position: absolute;
+        top: 100px;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+    }
+  }
+
+  &__description {
+    display: inline-block;
+    font-family: 'PT Sans', sans-serif;
+    color: $color_gray;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: italic;
+    max-width: 220px;
+    padding-bottom: 134px;
+
+    &--style {
+      color: $color_milk;
+      font-family: "PT Sans";
+      font-style: italic;
+      padding-top: 110px;
+    }
+  }
+}
